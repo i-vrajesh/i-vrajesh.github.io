@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="../Portfolio/style.css">
-  <link rel="icon" href="../Portfolio/Images/work_logo.ico">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="../Portfolio/style.css"> -->
+  <link rel="icon" href="Images/work_logo.ico">
+  <!-- <link rel="icon" href="../Portfolio/Images/work_logo.ico"> -->
   <script src="https://kit.fontawesome.com/76aa1ea256.js" crossorigin="anonymous"></script>
   <title>Scratch</title>
 </head>
@@ -14,7 +16,8 @@
   <div id="header">
     <div class="container">
       <nav>
-        <img src="../Portfolio/Images/ROG.png" class="logo">
+        <img src="Images/ROG.png" class="logo">
+        <!-- <img src="../Portfolio/Images/ROG.png" class="logo"> -->
         <ul>
           <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -24,7 +27,8 @@
         </ul>
         <div class="toggle-btn" id="btn">
           <span id="btnText">Light</span>
-          <img src="../Portfolio/Images/Sun.png" id="btnIcon">
+          <img src="Images/Sun.png" id="btnIcon">
+          <!-- <img src="../Portfolio/Images/Sun.png" id="btnIcon"> -->
         </div>
       </nav>
       <div class="header-text">
@@ -38,7 +42,8 @@
     <div class="container">
       <div class="row">
         <div class="about-col-1">
-          <img src="../Portfolio/Images/user.png" alt="">
+          <img src="Images/user.png" alt="">
+          <!-- <img src="../Portfolio/Images/user.png" alt=""> -->
         </div>
         <div class="about-col-2">
           <h1 class="sub-title">About Me</h1>
@@ -52,7 +57,7 @@
           </p>
 
           <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skils')">Skills</p>
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
             <p class="tab-links" onclick="opentab('experience')">Experience</p>
             <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
@@ -116,7 +121,8 @@
       <h1 class="sub-title">My Work</h1>
       <div class="work-list">
         <div class="work">
-          <img src="../Portfolio/Images/work-1.png">
+          <img src="Images/work-1.png">
+          <!-- <img src="../Portfolio/Images/work-1.png"> -->
           <div class="layer">
             <h3>Social Media App</h3>
             <p>The app connects you to the talented people around the world.
@@ -125,7 +131,8 @@
           </div>
         </div>
         <div class="work">
-          <img src="../Portfolio/Images/work-2.png">
+          <img src="Images/work-2.png">
+          <!-- <img src="../Portfolio/Images/work-2.png"> -->
           <div class="layer">
             <h3>Music App</h3>
             <p>The app connects you to the talented people around the world.
@@ -134,7 +141,8 @@
           </div>
         </div>
         <div class="work">
-          <img src="../Portfolio/Images/work-3.png">
+          <img src="Images/work-3.png">
+          <!-- <img src="../Portfolio/Images/work-3.png"> -->
           <div class="layer">
             <h3>Online Shopping App</h3>
             <p>The app connects you to the talented people around the world.
@@ -162,7 +170,8 @@
             <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"><i
                 class="fa-brands fa-linkedin"></i></a>
           </div>
-          <a href="../Portfolio/Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          <!-- <a href="../Portfolio/Images/my-cv.pdf" download class="btn btn2">Download CV</a> -->
         </div>
         <div class="contact-right">
           <form name="submit-to-google-sheet">
@@ -187,10 +196,12 @@
     btn.onclick = function () {
       document.body.classList.toggle("dark-theme");
       if (document.body.classList.contains("dark-theme")) {
-        btnIcon.src = "../Portfolio/Images/Dark Moon.png";
+        btnIcon.src = "Images/Dark Moon.png";
+        // btnIcon.src = "../Portfolio/Images/Dark Moon.png";
         btnText.innerHTML = "Dark";
       } else {
-        btnIcon.src = "../Portfolio/Images/Sun.png";
+        btnIcon.src = "Images/Sun.png";
+        // btnIcon.src = "../Portfolio/Images/Sun.png";
         btnText.innerHTML = "Light";
       }
     }
