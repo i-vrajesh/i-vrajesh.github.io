@@ -413,7 +413,8 @@ form .btn2{
 /* -------------------css for smal screen--------------- */
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(../Portfolio/Images/phone-background.png);
+        /* background-image: url(../Portfolio/Images/phone-background.png); */
+        background-image: url(Images/background.png);
     }
     .header-text{
         margin-top: 100%;
